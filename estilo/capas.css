@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color1 : white;
+    --back-color: rgb(0, 32, 26);
+    --back-footer: rgb(110, 216, 126);
+    --fonte-base: Arial, Helvetica, sans-serif;
+}
+
+/* corpo */
+
+body {
+    width: 100vw;
+}
+
+/* cabeçalho */
+
+header {
+    background-color: var(--back-color);
+    color: var(--color1);
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+/* principal */
+
+main {
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    color: var(--color1);
+    font-family: var(--fonte-base);
+    text-align: center;
+}
+
+p {
+    padding: 20px 20px 20px 20px;
+}
+
+#background-white {
+    background-color: white;
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 5px 5px 5px 5px;
+}
+
+@media (max-width: 500px) {
+    body, header, main, footer{
+        margin: auto;
+        width: 483px;
+    }
+}
+
+/* rodape */
+
+footer {
+    background-color: var(--back-footer);
+}
