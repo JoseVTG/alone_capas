@@ -50,7 +50,7 @@ p {
 @media (max-width: 500px) {
     body, header, main, footer{
         margin: auto;
-        width: 487px;
+        width: 490px;
     }
 }
 
